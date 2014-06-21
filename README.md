@@ -41,5 +41,4 @@ Import MySQL dumpfile, SQL datafile into yours database.
 [Dumpfile](https://github.com/Vuidaa/WhoWantsToBeaMillionaire-Game/blob/master/sql-dump/game.sql)
 
 
-Modify, extend and use this game framework the way you like.
-
+**Modify, extend and use this game framework the way you like.**
