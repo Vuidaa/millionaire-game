@@ -1,0 +1,516 @@
+/*=============== COMMON STYLES ===================*/
+*
+{
+  margin: 0;
+  padding: 0px;
+  color: white;
+}
+
+html,body
+{
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  background: #3B5998;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+h1,h2,h3,h4
+{
+  font-weight: 300;
+}
+
+h1
+{
+  font-size: 60px;
+  font-weight: 100;
+}
+
+h2
+{
+  font-size: 30px;
+}
+
+h3
+{
+  font-size: 25px;
+}
+
+p
+{
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.sum
+{
+  color: #FFAB07;
+  font-weight: 400;
+}
+
+.button
+{
+  font-size: 16px;
+  padding: 2% 0px;
+  text-decoration: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  color: white;
+  letter-spacing: 1px;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.button:hover
+{
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.info-btn
+{
+  background: #8FC400;
+  width: 20%;
+  display: block;
+  margin: 25px auto;
+}
+
+.pageheading
+{
+  padding: 2%;
+}
+
+.text-wrap
+{
+  text-align: left;
+  line-height: 25px;
+}
+
+.text-wrap p
+{
+  font-size: 17px;
+  line-height: 25px;
+}
+/*=============== COMMON STYLES ===================*/
+
+
+
+/*=============== LANDING PAGE ===================*/
+ul li
+{
+  display: block;
+  margin-bottom: 10px;
+  min-width: 510px;
+}
+
+#logo
+{
+  padding-top: 4%;
+  text-decoration: underline;
+}
+
+#logoheading
+{
+  margin: 5% auto;
+  color: #8fc400;
+}
+
+.menu-button
+{
+  display: block;
+  margin: auto;
+  width: 22%;
+  letter-spacing: 1px;
+  border: 1px solid white;
+  background-color: #FFAB07;
+}
+
+/*=============== LANDING PAGE ===================*/
+
+
+
+
+/*=============== GAME PAGE ===================*/
+#wrapper
+{
+  min-height: 100%;
+  height: auto !important;
+  width: 80%;
+  min-width: 520px;
+  height: 100%;
+  margin: 0 auto -80px;
+}
+
+#header h3
+{
+  padding-top: 5px;
+}
+
+#header p
+{
+  padding: 5px;
+}
+
+#countdown
+{
+  padding-bottom: 10px;
+}
+
+#question
+{
+  padding: 8% 0px 3% 0px;
+}
+
+#footer , #info
+{
+  margin: auto;
+  width: 80%;
+  height: 80px;
+  min-width: 520px;
+}
+
+#info
+{
+  display: none;
+}
+
+#answer-summary
+{
+  padding-top: 15%;
+}
+
+.answer-button
+{
+  width: 20%;
+  background: #309914;
+  border: 1px solid white;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.answer-letter
+{
+  font-size: 16px;
+  color: #FFAB07;
+  font-weight: 900;
+}
+
+.helper-button
+{
+  width: 24%;
+  background-color: #99BD4B;
+  border: 1px solid white;
+  margin: 0px 2%;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.finalanswer-button
+{
+  padding: 1% 2%;
+  background: #FFAB07;
+  margin: 5px;
+  border: none;
+}
+/*=============== GAME PAGE ===================*/
+
+
+
+
+
+/*=============== GAMEOVER-SUMMARY PAGE ===================*/
+#gameover-summary
+{
+  padding-top: 12%;
+}
+
+#gameover-summary h1,h3
+{
+  padding: 1%;
+}
+/*=============== GAMEOVER-SUMMARY PAGE ===================*/
+
+
+
+
+
+/*=============== MILLIONAIRE PAGE ===================*/
+#millionaire-summary
+{
+  padding-top: 8%;
+}
+
+#millionaireForm
+{
+  padding: 2%;
+  border-bottom: 1px solid white;
+}
+
+#millionaireForm input[type='text']
+{
+  display: block;
+  margin: auto;
+  width: 35%;
+  padding: 1% 0px;
+  color: #ABABAB;
+  font-size: 18px;
+  font-weight: 100;
+  text-align: center;
+}
+
+#millionaireForm p
+{
+  color: #C40A16;
+}
+/*=============== MILLIONAIRE PAGE ===================*/
+
+
+
+
+
+
+/*=============== RECORDS PAGE ===================*/
+#RecordsTable
+{
+  width: 50%;
+  margin: auto;
+}
+
+#RecordsTable th,td
+{
+  padding: 1%;
+  border-bottom: 2px solid white;
+}
+
+#RecordsTable td
+{
+  font-size: 16px;
+  border: none;
+}
+/*=============== RECORDS PAGE ===================*/
+
+
+
+/*=============== MEDIA QUERIES ===================*/
+
+@media only screen and (max-width : 500px){
+  h1
+  {
+    font-size: 30px;
+  }
+
+  h2
+  {
+    font-size: 16px;
+  }
+
+  h3
+  {
+    font-size: 14px;
+  }
+
+  p
+  {
+    font-size: 13px;
+  }
+
+  .button
+  {
+    font-size: 9px;
+    padding: 5px;
+  }
+
+  .answer-letter
+  {
+    font-size: 8px;
+    color: #FFAB07;
+    font-weight: 900;
+  }
+
+  #wrapper
+  {
+    min-height: 100%;
+    height: auto !important;
+    width: 80%;
+    min-width: 520px;
+    height: 100%;
+    margin: 0 auto -40px;
+  }
+
+  #countdown
+  {
+    padding-bottom: 5px;
+  }
+
+  #question
+  {
+    padding: 5% 0px 5px 0px;
+  }
+
+  #footer , #info
+  {
+    margin: auto;
+    width: 80%;
+    height: 40px;
+    min-width: 520px;
+  }
+
+  .text-wrap p
+  {
+    font-size: 10px;
+    line-height: 12px;
+  };
+}
+
+@media only screen and (min-width: 500px) and (max-width : 1000px){
+  h1
+  {
+    font-size: 40px;
+  }
+
+  h2
+  {
+    font-size: 25px;
+  }
+
+  h3
+  {
+    font-size: 18px;
+  }
+
+  p
+  {
+    font-size: 15px;
+  }
+
+  .button
+  {
+    font-size: 15px;
+    padding: 10px 4px;
+  }
+
+  .answer-letter
+  {
+    font-size: 12px;
+    color: #FFAB07;
+    font-weight: 900;
+  }
+
+  #wrapper
+  {
+    min-height: 100%;
+    height: auto !important;
+    width: 80%;
+    min-width: 520px;
+    height: 100%;
+    margin: 0 auto -60px;
+  }
+
+  #countdown
+  {
+    padding-bottom: 5px;
+  }
+
+  #question
+  {
+    padding: 8% 0px 10px 0px;
+  }
+
+  #footer , #info
+  {
+    margin: auto;
+    width: 80%;
+    height: 60px;
+    min-width: 520px;
+  }
+
+  .text-wrap p
+  {
+    font-size: 14px;
+    line-height: 17px;
+  };
+}
+
+@media only screen and (min-width: 1599px) and (max-width : 3000px){
+  h1
+  {
+    font-size: 90px;
+  }
+
+  h2
+  {
+    font-size: 40px;
+  }
+
+  h3
+  {
+    font-size: 30px;
+  }
+
+  p
+  {
+    font-size: 23px;
+  }
+
+  .button
+  {
+    font-size: 20px;
+    padding: 25px 0px;
+  }
+
+  .answer-button
+  {
+    margin: 0px 1%;
+  }
+
+  .answer-letter
+  {
+    font-size: 17px;
+    color: #FFAB07;
+    font-weight: 900;
+  }
+
+  #wrapper
+  {
+    min-height: 100%;
+    height: auto !important;
+    width: 80%;
+    min-width: 520px;
+    height: 100%;
+    margin: 0 auto -100px;
+  }
+
+  #countdown
+  {
+    padding-bottom: 15px;
+  }
+
+  #question
+  {
+    padding: 12% 0px 5% 0px;
+  }
+
+  #footer , #info
+  {
+    margin: auto;
+    width: 80%;
+    height: 100px;
+    min-width: 520px;
+  }
+
+  .text-wrap p
+  {
+    font-size: 22px;
+    line-height: 25px;
+  };
+}
