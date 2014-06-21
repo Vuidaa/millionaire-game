@@ -9,10 +9,36 @@ WhoWantsToBeaMillionaire-Game
 Game settings
 ------
 
-##Config.php
+###Config.php
 
 ```
 application/config/config.php
 ```
+
+Set your base url.
+```
+$config['base_url']	= 'http://exampleGame.com';
+```
+
+###Database.php
+
+```
+application/config/database.php
+```
+
+Set your database settings.
+```
+$db['default']['hostname'] = 'mysql:host=examplehost.com';
+$db['default']['username'] = 'someuser';
+$db['default']['password'] = 'somepassword';
+$db['default']['database'] = 'databaseName';
+```
+
+###Database dump
+Import MySQL dumpfile, SQL datafile into yours database.
+
+
+[Dumpfile](https://github.com/Vuidaa/WhoWantsToBeaMillionaire-Game/blob/master/sql-dump/game.sql)
+
 
 
