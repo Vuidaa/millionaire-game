@@ -9,6 +9,10 @@ WhoWantsToBeaMillionaire-Game
 Game settings
 ------
 
-###Config.php
-```application/config/config.php```
+##Config.php
+
+```
+application/config/config.php
+```
+
 
