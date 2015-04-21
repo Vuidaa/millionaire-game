@@ -48,11 +48,11 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'mysql:host=mysql.freehostingnoads.net';
-$db['default']['username'] = 'u945173936_root';
-$db['default']['password'] = '123456';
-$db['default']['database'] = 'u945173936_game';
-$db['default']['dbdriver'] = 'pdo';
+$db['default']['hostname'] = '';
+$db['default']['username'] = '';
+$db['default']['password'] = '';
+$db['default']['database'] = '';
+$db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = FALSE;
 $db['default']['db_debug'] = TRUE;
