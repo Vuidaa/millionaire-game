@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://whowantstobeamillionaire.t15.org';
+$config['base_url']	= 'http://example.co.uk';
 
 /*
 |--------------------------------------------------------------------------
